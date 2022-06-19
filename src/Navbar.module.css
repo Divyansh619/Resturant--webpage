@@ -1,0 +1,58 @@
+.menunav {
+  display: flex;
+  justify-content: center;
+  
+}
+.card_container {
+  border: 1px solid black;
+  width: 250px;
+  background-color:#BD4291;
+  margin-top:15px;
+}
+.imgcontainer {
+  justify-content: center;
+  display: flex;
+}
+img {
+  height: 135px;
+  align-items: center;
+}
+.img:hover {
+    transform: scale(1.2)
+}
+.category {
+    background-color: black;
+    color: white;
+  text-align: center;
+  font-weight: 600;
+  width: 110px;
+  margin-left: 70px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.name{
+    background-color: green;
+    text-align: center;
+    font-weight: 600;
+    width: 110px;
+    margin-left: 70px;
+  }
+
+.price{
+
+    background-color: red;
+    text-align: center;
+    font-weight: 600;
+    width: 110px;
+    margin-left: 70px;
+  }
+.id{
+    background-color: black;
+    color: white;
+    width: 20px;
+    padding-left: 5px;
+}
